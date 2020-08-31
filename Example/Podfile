@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CRJCommon_Example' do
+  pod 'CRJCommon', :path => '../'
+
+  target 'CRJCommon_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

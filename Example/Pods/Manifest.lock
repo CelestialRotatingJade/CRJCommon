@@ -1,0 +1,16 @@
+PODS:
+  - CRJCommon (0.1.0)
+
+DEPENDENCIES:
+  - CRJCommon (from `../`)
+
+EXTERNAL SOURCES:
+  CRJCommon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CRJCommon: 77090743333771b2ec3cc33d4e6a5cb5e5cb6094
+
+PODFILE CHECKSUM: 70a98e630af701602a521184f39a2abde4b904e7
+
+COCOAPODS: 1.9.3
