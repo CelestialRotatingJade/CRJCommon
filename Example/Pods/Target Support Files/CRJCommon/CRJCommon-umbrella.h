@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "CRJCellDataAdapter.h"
+#import "CRJCellHeaderFooterDataAdapter.h"
 #import "CRJCommon.h"
 #import "CRJCommonlyDefine.h"
 #import "CRJDeviceInfo.h"

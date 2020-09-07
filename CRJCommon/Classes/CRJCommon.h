@@ -10,5 +10,7 @@
 #define CRJCommon_h
 #import "CRJCommonlyDefine.h"
 #import "CRJDeviceInfo.h"
+#import "CRJCellDataAdapter.h"
+#import "CRJCellHeaderFooterDataAdapter.h"
 
 #endif /* CRJCommon_h */

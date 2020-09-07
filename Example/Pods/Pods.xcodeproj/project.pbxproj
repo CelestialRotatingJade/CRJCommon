@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00D8DE29E3C87D343E83643DDEB98F18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		045DBC37BBA0BC5C0EAA6B93215E2214 /* CRJCellHeaderFooterDataAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE78400258434CC1958D25C26F1CFED /* CRJCellHeaderFooterDataAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		172C88E1CE9FB589F087A2782D35966F /* Pods-CRJCommon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D0EB09041BC42829A297CC6396B3E8 /* Pods-CRJCommon_Tests-dummy.m */; };
 		210B1954AFFF5F68345296D2672C4EE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		27D2FD23C97A1E63500860D532935D34 /* CRJCellHeaderFooterDataAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 528120F3AAFDBBD55F4C388B894672BB /* CRJCellHeaderFooterDataAdapter.m */; };
 		32A85D848645C36C4DFA17B7DE6203F5 /* Pods-CRJCommon_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 334A2228756C813161A55E8DCA8B572D /* Pods-CRJCommon_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32ED6621B7C5093DD6E58B82F55E0B0A /* CRJCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FCE303E115FB483BDC83B9B74CB6EF /* CRJCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4472AEBC9CEF06BEABBC8DA039321387 /* CRJDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6245614FCAB6AC441DBB8F2937E4EEDC /* CRJDeviceInfo.m */; };
 		482B4A20AFD9754D429554C9F668683F /* Pods-CRJCommon_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9118013229E3BE950F9C2C72B7BB663E /* Pods-CRJCommon_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48AE5BFC8B3E35BF7FB106AFBC9E3AAD /* CRJDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 623075CD945F99583351070C1BE66172 /* CRJDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7914079FFA9F886B7DA06BB2D2B08F0F /* CRJCommonlyDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB0210B62D25CC070B97831BF735566 /* CRJCommonlyDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55CB82B9C1618B4DE45238566FA18199 /* CRJDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = BE2A85E93EA386D17021727705B407BD /* CRJDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BF7749EC9C7C5788590FD749E6E6421 /* CRJCellDataAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = DA730517C43A675268796011FCB94172 /* CRJCellDataAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		892471DC03677E87C637179C285CF609 /* CRJCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0074AB53EE3D7B389447D72C078B5D /* CRJCommon-dummy.m */; };
+		8973D6B3B7C828EEAFAD6EF806F1B1B5 /* CRJCellDataAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A135D51FB3B7101381CE40E3E2828497 /* CRJCellDataAdapter.m */; };
+		89FDFBD37D97BAD5549AF9A2B7268D1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A529E5B9FC5E508F33581F5F00BC5938 /* CRJCommonlyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3FEE784BD0D968868388BC8536D4DC /* CRJCommonlyDefine.m */; };
 		B7984C95F076CFBF2CBD5E7180586212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D373C142D94CEDBB191B4D6ABA205CA9 /* CRJCommonlyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 083EAE827032381321483B0D6C581220 /* CRJCommonlyDefine.m */; };
-		F44FCB17D9FAA4F3E2DF5FE3DEB14175 /* CRJCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A0EBB5284FB1C66E2CE66E777543D /* CRJCommon-dummy.m */; };
+		B953ECCB6B5BDB70C76A33A5AF5BD27A /* CRJCommonlyDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 3199755329AE0C6F8F9A72440FFC600B /* CRJCommonlyDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC3BAE7F2F49D08CABEE8240D837ED8D /* CRJCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8985A43D54E427386E74BE79B61D509D /* CRJCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE1EC7B51CC8D31C9B2CCD616D99D093 /* CRJCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 486BBE4DA51C11018C0BE29619312912 /* CRJCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE4A778CA3B842FCF08437DC4CD79572 /* CRJDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FB5FF7F96857E4F0947F20E73BB2B3 /* CRJDeviceInfo.m */; };
 		FA3C99BC894548748B1A34278E52C791 /* Pods-CRJCommon_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0361502D24B793095A3DBAF990E78AA /* Pods-CRJCommon_Example-dummy.m */; };
-		FE34D73E1EE5C36C29D01A71C7825133 /* CRJCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = E26FF6D59940E33771C6F7ED1B304856 /* CRJCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,44 +47,56 @@
 /* Begin PBXFileReference section */
 		014A3031CC4237A5D6C585BC0AE1A3A9 /* Pods-CRJCommon_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRJCommon_Example-Info.plist"; sourceTree = "<group>"; };
 		01BBFD1C347554A973CA9A2033A34E76 /* Pods-CRJCommon_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRJCommon_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		083EAE827032381321483B0D6C581220 /* CRJCommonlyDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRJCommonlyDefine.m; path = CRJCommon/Classes/CRJCommonlyDefine.m; sourceTree = "<group>"; };
-		14FCE303E115FB483BDC83B9B74CB6EF /* CRJCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRJCommon-umbrella.h"; sourceTree = "<group>"; };
 		16D0EB09041BC42829A297CC6396B3E8 /* Pods-CRJCommon_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CRJCommon_Tests-dummy.m"; sourceTree = "<group>"; };
-		1919F8A8E5D94CBF4AF386EF1F88EACA /* CRJCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRJCommon-prefix.pch"; sourceTree = "<group>"; };
-		1F3A0EBB5284FB1C66E2CE66E777543D /* CRJCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CRJCommon-dummy.m"; sourceTree = "<group>"; };
-		2C2A849CD86E2DD822C27F775176CB93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3199755329AE0C6F8F9A72440FFC600B /* CRJCommonlyDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRJCommonlyDefine.h; path = CRJCommon/Classes/CRJCommonlyDefine.h; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		334A2228756C813161A55E8DCA8B572D /* Pods-CRJCommon_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CRJCommon_Tests-umbrella.h"; sourceTree = "<group>"; };
+		39FC41A24B92FEA7CFEAA493BA149622 /* CRJCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRJCommon.debug.xcconfig; sourceTree = "<group>"; };
 		3C922D7C003AC4CC6D59358914E3ED44 /* Pods-CRJCommon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRJCommon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		486BBE4DA51C11018C0BE29619312912 /* CRJCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRJCommon-umbrella.h"; sourceTree = "<group>"; };
 		4A7808F1859A7F4FED1EA45C2D477670 /* Pods-CRJCommon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CRJCommon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4FB0210B62D25CC070B97831BF735566 /* CRJCommonlyDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRJCommonlyDefine.h; path = CRJCommon/Classes/CRJCommonlyDefine.h; sourceTree = "<group>"; };
-		623075CD945F99583351070C1BE66172 /* CRJDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRJDeviceInfo.h; path = CRJCommon/Classes/CRJDeviceInfo.h; sourceTree = "<group>"; };
-		6245614FCAB6AC441DBB8F2937E4EEDC /* CRJDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRJDeviceInfo.m; path = CRJCommon/Classes/CRJDeviceInfo.m; sourceTree = "<group>"; };
+		528120F3AAFDBBD55F4C388B894672BB /* CRJCellHeaderFooterDataAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRJCellHeaderFooterDataAdapter.m; path = CRJCommon/Classes/CRJCellHeaderFooterDataAdapter.m; sourceTree = "<group>"; };
+		5F144FDFCCA870E517582824D34B24E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6B0071668E877321651CAACD6AB47104 /* Pods_CRJCommon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRJCommon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72383861B880CAB0340E3D649A8A829C /* CRJCommon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CRJCommon-Info.plist"; sourceTree = "<group>"; };
 		72F28EACCF8B3D5E067054D0623C967A /* Pods-CRJCommon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRJCommon_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		745F1B77FDA15667AF779F833DA6E0FA /* CRJCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CRJCommon.modulemap; sourceTree = "<group>"; };
 		7DB46C76ADC1058ADBF5AB47CAC69E76 /* Pods-CRJCommon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRJCommon_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8892D49D4D3CB1B6726690C44C206522 /* CRJCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRJCommon.debug.xcconfig; sourceTree = "<group>"; };
+		84083F7D6241225A4308968A0B3831C9 /* CRJCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRJCommon-prefix.pch"; sourceTree = "<group>"; };
+		8985A43D54E427386E74BE79B61D509D /* CRJCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRJCommon.h; path = CRJCommon/Classes/CRJCommon.h; sourceTree = "<group>"; };
 		9118013229E3BE950F9C2C72B7BB663E /* Pods-CRJCommon_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CRJCommon_Example-umbrella.h"; sourceTree = "<group>"; };
-		961E1F9EFD342061FAB7A4127F26D100 /* CRJCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRJCommon.release.xcconfig; sourceTree = "<group>"; };
 		99ECDEA357A8AB4139EAC617E13C8F2F /* Pods-CRJCommon_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRJCommon_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D753ED7BCA85B1C51A0D55E507A2888 /* CRJCommon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CRJCommon-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A135D51FB3B7101381CE40E3E2828497 /* CRJCellDataAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRJCellDataAdapter.m; path = CRJCommon/Classes/CRJCellDataAdapter.m; sourceTree = "<group>"; };
 		A2D9177CE12A224CE662E2AB0176E0D4 /* Pods-CRJCommon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRJCommon_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A7D7825D924BA7CAA62703EEF6211402 /* CRJCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CRJCommon.modulemap; sourceTree = "<group>"; };
+		AAE78400258434CC1958D25C26F1CFED /* CRJCellHeaderFooterDataAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRJCellHeaderFooterDataAdapter.h; path = CRJCommon/Classes/CRJCellHeaderFooterDataAdapter.h; sourceTree = "<group>"; };
 		B0361502D24B793095A3DBAF990E78AA /* Pods-CRJCommon_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CRJCommon_Example-dummy.m"; sourceTree = "<group>"; };
+		B406372CC461A5BCB7DD30FD523A8BD2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B5FE249B91A0F01B795552D349F37041 /* Pods-CRJCommon_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRJCommon_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B952FB93E2EA8D1BA1A8B2CDF0D9B9F0 /* Pods_CRJCommon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRJCommon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2A85E93EA386D17021727705B407BD /* CRJDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRJDeviceInfo.h; path = CRJCommon/Classes/CRJDeviceInfo.h; sourceTree = "<group>"; };
 		C103F46CF554F1BD0375F1FDCA3785E1 /* Pods-CRJCommon_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRJCommon_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C67B60BE2BB6BD4B6B3F505D03A11373 /* CRJCommon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CRJCommon.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		C7AB8C421A0E71E2588FC9C2B69BB6A7 /* Pods-CRJCommon_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CRJCommon_Tests.modulemap"; sourceTree = "<group>"; };
+		C9FB5FF7F96857E4F0947F20E73BB2B3 /* CRJDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRJDeviceInfo.m; path = CRJCommon/Classes/CRJDeviceInfo.m; sourceTree = "<group>"; };
 		CB491A8A2507050D98060724B0D2265D /* Pods-CRJCommon_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CRJCommon_Example.modulemap"; sourceTree = "<group>"; };
-		CB8A5804D2CC0695AD2DBF18CFB3B051 /* CRJCommon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CRJCommon.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		E26FF6D59940E33771C6F7ED1B304856 /* CRJCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRJCommon.h; path = CRJCommon/Classes/CRJCommon.h; sourceTree = "<group>"; };
+		CC03414945031D43EC85ABD74DBCBC57 /* CRJCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRJCommon.release.xcconfig; sourceTree = "<group>"; };
+		DA730517C43A675268796011FCB94172 /* CRJCellDataAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CRJCellDataAdapter.h; path = CRJCommon/Classes/CRJCellDataAdapter.h; sourceTree = "<group>"; };
+		DC3FEE784BD0D968868388BC8536D4DC /* CRJCommonlyDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CRJCommonlyDefine.m; path = CRJCommon/Classes/CRJCommonlyDefine.m; sourceTree = "<group>"; };
 		E5D997F0C9EF9BC62482229585685C9F /* Pods-CRJCommon_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CRJCommon_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE0074AB53EE3D7B389447D72C078B5D /* CRJCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CRJCommon-dummy.m"; sourceTree = "<group>"; };
 		F2EC5149C3B406D589027AB9F3B6F857 /* CRJCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CRJCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F74A81D6D70F5185AA7F750981396699 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7FC352B2A6BE3FA9E8720E0D008C8ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FDFBD37D97BAD5549AF9A2B7268D1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9EB81A939D89E7B47537842C9A159EFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,25 +113,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EFAF519811B45C0B050F2780A788AB6B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00D8DE29E3C87D343E83643DDEB98F18 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E8D546672B528E680B64983D37F6BAA /* Pod */ = {
+		18BB574E00A1A260A53600B3A102FDA2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CB8A5804D2CC0695AD2DBF18CFB3B051 /* CRJCommon.podspec */,
-				F74A81D6D70F5185AA7F750981396699 /* LICENSE */,
-				2C2A849CD86E2DD822C27F775176CB93 /* README.md */,
+				C67B60BE2BB6BD4B6B3F505D03A11373 /* CRJCommon.podspec */,
+				B406372CC461A5BCB7DD30FD523A8BD2 /* LICENSE */,
+				5F144FDFCCA870E517582824D34B24E5 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		1D9456F4FD8D0EBB69E4E9DFEDA588F1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21E5621B3EAE6A9C98EA2C2222D1E3A0 /* CRJCommon */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		21E5621B3EAE6A9C98EA2C2222D1E3A0 /* CRJCommon */ = {
+			isa = PBXGroup;
+			children = (
+				DA730517C43A675268796011FCB94172 /* CRJCellDataAdapter.h */,
+				A135D51FB3B7101381CE40E3E2828497 /* CRJCellDataAdapter.m */,
+				AAE78400258434CC1958D25C26F1CFED /* CRJCellHeaderFooterDataAdapter.h */,
+				528120F3AAFDBBD55F4C388B894672BB /* CRJCellHeaderFooterDataAdapter.m */,
+				8985A43D54E427386E74BE79B61D509D /* CRJCommon.h */,
+				3199755329AE0C6F8F9A72440FFC600B /* CRJCommonlyDefine.h */,
+				DC3FEE784BD0D968868388BC8536D4DC /* CRJCommonlyDefine.m */,
+				BE2A85E93EA386D17021727705B407BD /* CRJDeviceInfo.h */,
+				C9FB5FF7F96857E4F0947F20E73BB2B3 /* CRJDeviceInfo.m */,
+				18BB574E00A1A260A53600B3A102FDA2 /* Pod */,
+				350B11C49BCFEA93412AB476964E42C3 /* Support Files */,
+			);
+			name = CRJCommon;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		350B11C49BCFEA93412AB476964E42C3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7D7825D924BA7CAA62703EEF6211402 /* CRJCommon.modulemap */,
+				EE0074AB53EE3D7B389447D72C078B5D /* CRJCommon-dummy.m */,
+				72383861B880CAB0340E3D649A8A829C /* CRJCommon-Info.plist */,
+				84083F7D6241225A4308968A0B3831C9 /* CRJCommon-prefix.pch */,
+				486BBE4DA51C11018C0BE29619312912 /* CRJCommon-umbrella.h */,
+				39FC41A24B92FEA7CFEAA493BA149622 /* CRJCommon.debug.xcconfig */,
+				CC03414945031D43EC85ABD74DBCBC57 /* CRJCommon.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CRJCommon";
 			sourceTree = "<group>";
 		};
 		58EA97BB131FB0674C2023ED724C0115 /* Targets Support Files */ = {
@@ -125,21 +175,6 @@
 				7FFDE4E4D0241E83586D1538FD95BDC2 /* Pods-CRJCommon_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5A82430DD53083BED2955118B5994957 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				745F1B77FDA15667AF779F833DA6E0FA /* CRJCommon.modulemap */,
-				1F3A0EBB5284FB1C66E2CE66E777543D /* CRJCommon-dummy.m */,
-				9D753ED7BCA85B1C51A0D55E507A2888 /* CRJCommon-Info.plist */,
-				1919F8A8E5D94CBF4AF386EF1F88EACA /* CRJCommon-prefix.pch */,
-				14FCE303E115FB483BDC83B9B74CB6EF /* CRJCommon-umbrella.h */,
-				8892D49D4D3CB1B6726690C44C206522 /* CRJCommon.debug.xcconfig */,
-				961E1F9EFD342061FAB7A4127F26D100 /* CRJCommon.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CRJCommon";
 			sourceTree = "<group>";
 		};
 		7FFDE4E4D0241E83586D1538FD95BDC2 /* Pods-CRJCommon_Tests */ = {
@@ -158,14 +193,6 @@
 			path = "Target Support Files/Pods-CRJCommon_Tests";
 			sourceTree = "<group>";
 		};
-		B6042CE6187872AF3A5A55BE73F1DC51 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CD6B7111DB0C69F50D41F2D7DCA465DD /* CRJCommon */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,26 +201,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CD6B7111DB0C69F50D41F2D7DCA465DD /* CRJCommon */ = {
-			isa = PBXGroup;
-			children = (
-				E26FF6D59940E33771C6F7ED1B304856 /* CRJCommon.h */,
-				4FB0210B62D25CC070B97831BF735566 /* CRJCommonlyDefine.h */,
-				083EAE827032381321483B0D6C581220 /* CRJCommonlyDefine.m */,
-				623075CD945F99583351070C1BE66172 /* CRJDeviceInfo.h */,
-				6245614FCAB6AC441DBB8F2937E4EEDC /* CRJDeviceInfo.m */,
-				1E8D546672B528E680B64983D37F6BAA /* Pod */,
-				5A82430DD53083BED2955118B5994957 /* Support Files */,
-			);
-			name = CRJCommon;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B6042CE6187872AF3A5A55BE73F1DC51 /* Development Pods */,
+				1D9456F4FD8D0EBB69E4E9DFEDA588F1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				F83A412FFA0FB65F1674B244BB2726CF /* Products */,
 				58EA97BB131FB0674C2023ED724C0115 /* Targets Support Files */,
@@ -238,14 +250,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3176FC1B27010303C2932BE29BEC13CF /* Headers */ = {
+		BA5668E5385E884EF5F8093F36AA1063 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32ED6621B7C5093DD6E58B82F55E0B0A /* CRJCommon-umbrella.h in Headers */,
-				FE34D73E1EE5C36C29D01A71C7825133 /* CRJCommon.h in Headers */,
-				7914079FFA9F886B7DA06BB2D2B08F0F /* CRJCommonlyDefine.h in Headers */,
-				48AE5BFC8B3E35BF7FB106AFBC9E3AAD /* CRJDeviceInfo.h in Headers */,
+				7BF7749EC9C7C5788590FD749E6E6421 /* CRJCellDataAdapter.h in Headers */,
+				045DBC37BBA0BC5C0EAA6B93215E2214 /* CRJCellHeaderFooterDataAdapter.h in Headers */,
+				BE1EC7B51CC8D31C9B2CCD616D99D093 /* CRJCommon-umbrella.h in Headers */,
+				BC3BAE7F2F49D08CABEE8240D837ED8D /* CRJCommon.h in Headers */,
+				B953ECCB6B5BDB70C76A33A5AF5BD27A /* CRJCommonlyDefine.h in Headers */,
+				55CB82B9C1618B4DE45238566FA18199 /* CRJDeviceInfo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +303,12 @@
 		};
 		07D02B6DA69F51E4B181F12266EAAC08 /* CRJCommon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C5A33C62C202922500E0A970BE4AFC7 /* Build configuration list for PBXNativeTarget "CRJCommon" */;
+			buildConfigurationList = A4683973722995E2A72179FD030D6329 /* Build configuration list for PBXNativeTarget "CRJCommon" */;
 			buildPhases = (
-				3176FC1B27010303C2932BE29BEC13CF /* Headers */,
-				A1450817405F8B9F9ADB926C6BF9031A /* Sources */,
-				EFAF519811B45C0B050F2780A788AB6B /* Frameworks */,
-				CBBD815E6CFF85309DE77DAA8A1030E1 /* Resources */,
+				BA5668E5385E884EF5F8093F36AA1063 /* Headers */,
+				6C5E5F6A8E0FF9212AEA314B075686D3 /* Sources */,
+				7FC352B2A6BE3FA9E8720E0D008C8ABF /* Frameworks */,
+				C9EED448E11E6BDFB9F77DBA02F79ADA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -368,7 +382,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBBD815E6CFF85309DE77DAA8A1030E1 /* Resources */ = {
+		C9EED448E11E6BDFB9F77DBA02F79ADA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,21 +392,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6C5E5F6A8E0FF9212AEA314B075686D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8973D6B3B7C828EEAFAD6EF806F1B1B5 /* CRJCellDataAdapter.m in Sources */,
+				27D2FD23C97A1E63500860D532935D34 /* CRJCellHeaderFooterDataAdapter.m in Sources */,
+				892471DC03677E87C637179C285CF609 /* CRJCommon-dummy.m in Sources */,
+				A529E5B9FC5E508F33581F5F00BC5938 /* CRJCommonlyDefine.m in Sources */,
+				BE4A778CA3B842FCF08437DC4CD79572 /* CRJDeviceInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94D79116FA18E341FF4D17E8288585B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				172C88E1CE9FB589F087A2782D35966F /* Pods-CRJCommon_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A1450817405F8B9F9ADB926C6BF9031A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F44FCB17D9FAA4F3E2DF5FE3DEB14175 /* CRJCommon-dummy.m in Sources */,
-				D373C142D94CEDBB191B4D6ABA205CA9 /* CRJCommonlyDefine.m in Sources */,
-				4472AEBC9CEF06BEABBC8DA039321387 /* CRJDeviceInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,38 +438,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		28FB334293C58870321A7C6A3642D2E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 961E1F9EFD342061FAB7A4127F26D100 /* CRJCommon.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CRJCommon/CRJCommon-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CRJCommon/CRJCommon-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CRJCommon/CRJCommon.modulemap";
-				PRODUCT_MODULE_NAME = CRJCommon;
-				PRODUCT_NAME = CRJCommon;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -513,9 +497,9 @@
 			};
 			name = Release;
 		};
-		4F81F5F26131006A35C7A0F46DC556D7 /* Debug */ = {
+		5B16D07227DDD0EFFF9075BF3CD170BB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8892D49D4D3CB1B6726690C44C206522 /* CRJCommon.debug.xcconfig */;
+			baseConfigurationReference = CC03414945031D43EC85ABD74DBCBC57 /* CRJCommon.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -539,10 +523,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		6E00744A4816BACD083260A240147AAD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -742,6 +727,37 @@
 			};
 			name = Debug;
 		};
+		CD7BE6CF40C85915DE7FD7B884E5760E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39FC41A24B92FEA7CFEAA493BA149622 /* CRJCommon.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CRJCommon/CRJCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CRJCommon/CRJCommon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CRJCommon/CRJCommon.modulemap";
+				PRODUCT_MODULE_NAME = CRJCommon;
+				PRODUCT_NAME = CRJCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -772,11 +788,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C5A33C62C202922500E0A970BE4AFC7 /* Build configuration list for PBXNativeTarget "CRJCommon" */ = {
+		A4683973722995E2A72179FD030D6329 /* Build configuration list for PBXNativeTarget "CRJCommon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F81F5F26131006A35C7A0F46DC556D7 /* Debug */,
-				28FB334293C58870321A7C6A3642D2E4 /* Release */,
+				CD7BE6CF40C85915DE7FD7B884E5760E /* Debug */,
+				5B16D07227DDD0EFFF9075BF3CD170BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
