@@ -41,7 +41,7 @@
  *  @param cellHeight           Cell's height.
  *  @param cellType             Cell's type (The same cell, but maybe have different types).
  *
- *  @return JYCellDataAdapter's object.
+ *  @return CRJCellDataAdapter's object.
  */
 + (CRJCellDataAdapter *)adapterWithCellReuseIdentifier:(NSString *)cellReuseIdentifiers
                                                   data:(id)data
@@ -49,7 +49,7 @@
                                               cellType:(NSInteger)cellType;
 
 /**
- *  JYCellDataAdapter's convenient method, used for UITableView.
+ *  CRJCellDataAdapter's convenient method, used for UITableView.
  *
  *  @param cellReuseIdentifiers Cell's reused identifier.
  *  @param data                 Data, can be nil.
@@ -57,7 +57,7 @@
  *  @param cellWidth            Cell's width.
  *  @param cellType             Cell's type (The same cell, but maybe have different types).
  *
- *  @return JYCellDataAdapter's object.
+ *  @return CRJCellDataAdapter's object.
  */
 + (CRJCellDataAdapter *)adapterWithCellReuseIdentifier:(NSString *)cellReuseIdentifiers
                                                   data:(id)data
@@ -66,13 +66,13 @@
                                               cellType:(NSInteger)cellType;
 
 /**
- *  JYCellDataAdapter's convenient method, used for UICollectionView.
+ *  CRJCellDataAdapter's convenient method, used for UICollectionView.
  *
  *  @param cellReuseIdentifiers Cell's reused identifier.
  *  @param data                 Data, can be nil.
  *  @param cellType             Cell's type (The same cell, but maybe have different types).
  *
- *  @return JYCellDataAdapter's object.
+ *  @return CRJCellDataAdapter's object.
  */
 + (CRJCellDataAdapter *)adapterWithCellReuseIdentifier:(NSString *)cellReuseIdentifiers
                                                   data:(id)data

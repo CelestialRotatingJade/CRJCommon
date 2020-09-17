@@ -1,5 +1,5 @@
 //
-//  CRJCellHeaderFooterDataAdapter.h
+//  CRJCellHFDataAdapter.h
 //  CRJCommon
 //
 //  Created by zhuyuhui on 2020/9/7.
@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-@interface CRJCellHeaderFooterDataAdapter : NSObject
+@interface CRJCellHFDataAdapter : NSObject
 
 /**
  *  Cell header or footer's reused identifier.
@@ -42,7 +42,7 @@
  *  @param height Cell header or footer's height, only used for UITableView's cell.
  *  @param type CellHeader or CellFooter's type (The same header or footer, but maybe have different types).
  *
- *  @return CRJCellHeaderFooterDataAdapter
+ *  @return CRJCellHFDataAdapter
  */
 + (instancetype)adapterWithReuseIdentifier:(NSString *)reuseIdentifier
                                       data:(id)data

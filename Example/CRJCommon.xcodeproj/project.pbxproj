@@ -22,7 +22,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		AF7DBEDC24FB75BE0054EC82 /* JYCommonlyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7DBEDB24FB75BE0054EC82 /* JYCommonlyDefine.m */; };
 		D6B4A04CDAA87FDED24E5A85 /* Pods_CRJCommon_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FCFA5D89A29886B624AB1B /* Pods_CRJCommon_Example.framework */; };
 		F472691AE5C489C43EEE7C04 /* Pods_CRJCommon_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904CC87B2E214E66BCA405D1 /* Pods_CRJCommon_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -67,8 +66,6 @@
 		9028A97088F0D67A9414901C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		904CC87B2E214E66BCA405D1 /* Pods_CRJCommon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRJCommon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D18FC84389B7EB90CA74FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		AF7DBEDA24FB75BD0054EC82 /* JYCommonlyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCommonlyDefine.h; sourceTree = "<group>"; };
-		AF7DBEDB24FB75BE0054EC82 /* JYCommonlyDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCommonlyDefine.m; sourceTree = "<group>"; };
 		D8FCFA5D89A29886B624AB1B /* Pods_CRJCommon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRJCommon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -141,8 +138,6 @@
 				6003F5A5195388D20070C39A /* CRJViewController.h */,
 				6003F5A6195388D20070C39A /* CRJViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				AF7DBEDA24FB75BD0054EC82 /* JYCommonlyDefine.h */,
-				AF7DBEDB24FB75BE0054EC82 /* JYCommonlyDefine.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -370,7 +365,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* CRJAppDelegate.m in Sources */,
-				AF7DBEDC24FB75BE0054EC82 /* JYCommonlyDefine.m in Sources */,
 				6003F5A7195388D20070C39A /* CRJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

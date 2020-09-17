@@ -1,19 +1,19 @@
 //
-//  CRJCellHeaderFooterDataAdapter.m
+//  CRJCellHFDataAdapter.m
 //  CRJCommon
 //
 //  Created by zhuyuhui on 2020/9/7.
 //
 
-#import "CRJCellHeaderFooterDataAdapter.h"
+#import "CRJCellHFDataAdapter.h"
 
-@implementation CRJCellHeaderFooterDataAdapter
+@implementation CRJCellHFDataAdapter
 + (instancetype)adapterWithReuseIdentifier:(NSString *)reuseIdentifier
                                       data:(id)data
                                     height:(CGFloat)height
                                       type:(NSInteger)type
 {
-    CRJCellHeaderFooterDataAdapter *adapter = [[self class] new];
+    CRJCellHFDataAdapter *adapter = [[self class] new];
     adapter.reuseIdentifier              = reuseIdentifier;
     adapter.data                         = data;
     adapter.height                       = height;
