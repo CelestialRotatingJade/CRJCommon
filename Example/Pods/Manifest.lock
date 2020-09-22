@@ -1,5 +1,5 @@
 PODS:
-  - CRJCommon (0.1.1)
+  - CRJCommon (0.1.2)
 
 DEPENDENCIES:
   - CRJCommon (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CRJCommon: e2f88d5c291513aaa9f06a854d46fbb1f522f68e
+  CRJCommon: cfd7edb05b68f25738f052864ef1c098769c8792
 
 PODFILE CHECKSUM: 70a98e630af701602a521184f39a2abde4b904e7
 
